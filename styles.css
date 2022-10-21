@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+    --dark-one: #333;
+    --background-color: #f6f7fb;
+    --dark-two: #7a7a7a;
+    --main-color: #784cfb;
+    --light-one: #fff;
+    --light-two: #f9fafb;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body, button, textarea,input{
+    font-family: 'Poppins';
+   
+}
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: #5372F0;
+}
+
+.container{
+    width: 420px;
+    background: #fff;
+}
+.container h3{
+    padding: 18px 25px;
+    font-size: 23px;
+    font-weight: 500;
+    border-bottom: 1px solid #ccc;
+}
+.container .content{
+    margin: 22px 20px 35px;
+}
+.content .word{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 25px;
+}
+.content .details{
+    margin: 25px 0 20px;
+}
+.details p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.content input{
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+}
+.content .buttons{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+.buttons button{
+    border: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #fff;
+}
+.buttons .refresh-word{
+    background: #6c757d;
+    transition: 0.3s;
+}
+.refresh-word:hover{
+    background-color: #474A45;
+}
+.buttons .check-word{
+    background: #5372F0;
+}
